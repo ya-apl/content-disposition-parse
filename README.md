@@ -2,9 +2,6 @@
 
 [![NPM Version][npm-image]][npm-url]
 [![NPM Downloads][downloads-image]][downloads-url]
-[![Node.js Version][node-version-image]][node-version-url]
-[![Build Status][github-actions-ci-image]][github-actions-ci-url]
-[![Test Coverage][coveralls-image]][coveralls-url]
 
 Parse HTTP `Content-Disposition` header
 
@@ -65,11 +62,5 @@ ffffff
 
 [npm-image]: https://img.shields.io/npm/v/content-disposition-parse.svg
 [npm-url]: https://npmjs.org/package/content-disposition-parse
-[node-version-image]: https://img.shields.io/node/v/content-disposition-parse.svg
-[node-version-url]: https://nodejs.org/en/download
-[coveralls-image]: https://img.shields.io/coveralls/jshttp/content-disposition-parse.svg
-[coveralls-url]: https://coveralls.io/r/jshttp/content-disposition-parse?branch=master
 [downloads-image]: https://img.shields.io/npm/dm/content-disposition-parse.svg
 [downloads-url]: https://npmjs.org/package/content-disposition-parse
-[github-actions-ci-image]: https://img.shields.io/github/workflow/status/jshttp/content-disposition-parse/ci/master?label=ci
-[github-actions-ci-url]: https://github.com/jshttp/content-disposition-parse?query=workflow%3Aci
