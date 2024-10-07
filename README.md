@@ -1,7 +1,11 @@
 # content-disposition-parse
 
-[![NPM Version][npm-image]][npm-url]
-[![NPM Downloads][downloads-image]][downloads-url]
+
+[![Npm badge][npm-badge]][npm-orig-url] [![Npm badge][git-badge]][git-url]
+
+
+
+[![NPM Version][npm-image]][npm-url] [![NPM Downloads][downloads-image]][downloads-url]
 
 Parse HTTP `Content-Disposition` header
 
@@ -60,7 +64,12 @@ ffffff
 
 [MIT](LICENSE)
 
-[npm-image]: https://img.shields.io/npm/v/content-disposition-parse.svg
+[npm-image]: https://img.shields.io/npm/v/content-disposition-parse.svg?
 [npm-url]: https://npmjs.org/package/content-disposition-parse
 [downloads-image]: https://img.shields.io/npm/dm/content-disposition-parse.svg
+[npm-badge]: https://img.shields.io/badge/based_on-red?logo=npm&label=npm
+[git-badge]: https://img.shields.io/badge/based_on-blue?logo=github&label=github
+[npm-orig-url]: https://npmjs.org/package/content-disposition
+[git-url]: https://github.com/jshttp/content-disposition
 [downloads-url]: https://npmjs.org/package/content-disposition-parse
+
