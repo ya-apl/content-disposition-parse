@@ -6,3 +6,4 @@ dist/
 # Ignore TypeScript files output
 *.js
 *.d.ts
+content-disposition-parse-*.tgz
