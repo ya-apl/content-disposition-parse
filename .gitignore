@@ -3,7 +3,9 @@ node_modules/
 npm-debug.log
 package-lock.json
 dist/
+full-test/
 # Ignore TypeScript files output
 *.js
 *.d.ts
 content-disposition-parse-*.tgz
+!minify.js

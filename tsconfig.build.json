@@ -3,7 +3,12 @@
   "compilerOptions": {
     "declaration": true,
     "outDir": "./dist",
-    "removeComments": true
+    "removeComments": true,
+    "sourceMap": false,        // Не создаем карты исходников
+    "target": "es5",           // Поддержка более старых версий JS
+    "module": "commonjs",      // Используем модуль CommonJS
+    "strict": true,            // Включаем строгий режим
+    "esModuleInterop": true    // Включаем ES-модули
   },
   "include": ["src/**/*.ts"],
   "exclude": ["test/**/*.ts"]

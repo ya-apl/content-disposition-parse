@@ -1,12 +1,12 @@
 {
     "name": "content-disposition-parse",
     "description": "Parse Content-Disposition header",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "author": "ya_apl <https://github.com/ya-apl>",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
     "scripts": {
-        "build": "tsc --project tsconfig.build.json",
+        "build": "tsc --project tsconfig.build.json && node minify.js",
         "test": "mocha -r ts-node/register test/**/*.ts",
         "prepublishOnly": "npm run test && npm run build"
     },
@@ -32,6 +32,7 @@
         "@types/mocha": "^10.0.8",
         "chai": "^4.5.0",
         "mocha": "^9.2.2",
+        "terser": "^5.34.1",
         "ts-node": "^10.9.2",
         "typescript": "^4.9.5"
     }

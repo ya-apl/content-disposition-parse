@@ -8,3 +8,4 @@ tsconfig.build.json
 
 # Exclude node_modules
 node_modules/
+full-test/
